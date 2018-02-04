@@ -1,0 +1,77 @@
+div.pad {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+div.row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+div.row div.button {
+    flex: 1;
+    margin: 2px;
+    text-align: center;
+}
+
+div.row div.display {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    min-height: 2.5em;
+    padding-bottom: 0.3em;
+}
+
+div.row div.display input {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #333333;
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0;
+    font-family: 'Droid Sans Mono';
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+div.row div.button button {
+    display: flex;
+    flex: 1;
+   
+    min-height: 65px;
+    border-radius: 5px;
+
+    border: 0;
+    width: 100%;
+    font-weight: 900;
+    background-color: #333333;
+
+
+    font-size: 2em;
+
+    padding: 0px;
+    text-align: center;
+    display: inline-block;
+}
+
+div.row div.button button fa.dial {
+    color: green;
+    font-stretch: expanded;
+    font-weight: bolder;
+}
+
+div.row div.button button fa.phonebook {
+    text-align: center;
+    line-height: 48px;
+    height: 48px;
+}
+
+div.row div.button span {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}

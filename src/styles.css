@@ -1,1 +1,55 @@
+@font-face {
+    font-family: 'Droid Sans Mono';
+    src: url('/assets/fonts/DroidSansMono.ttf');
+}
+
 /* You can add global styles to this file, and also import other style files */
+body {
+    /*width: 320px;*/
+    min-height: 480px;
+    padding: 0.2em;
+    margin: 0.2em;
+
+    background: #e4efc0; /* Old browsers */
+    background: -moz-linear-gradient(top, #e4efc0 0%, #abbd73 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e4efc0 0%,#abbd73 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e4efc0 0%,#abbd73 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4efc0', endColorstr='#abbd73',GradientType=0 ); /* IE6-9 */
+    background-repeat: no-repeat;
+
+    font-family: 'Droid Sans Mono';
+    overflow: hidden;
+}
+
+a {
+    color: #000000;
+}
+.hidden {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+button {
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+    font-weight: 900;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-size: 2em;
+    padding: 0px;
+    text-align: center;
+    display: inline-block;
+}
+
+button:hover, button:active {
+    background: rgb(210,255,82); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
+    color: #000000;
+}

@@ -1,0 +1,25 @@
+app-dialler {
+    margin: 0;
+    padding: 0;
+}
+
+div.main-container {
+    display: flex;
+    flex-flow: column;
+}
+
+div.main-container footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+div.main-container footer button {
+    width: 60px;
+    height: 60px;
+}

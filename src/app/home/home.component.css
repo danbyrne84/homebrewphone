@@ -1,0 +1,29 @@
+div.icons {
+    align-items: center;
+}
+
+div.icons ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+div.icons ul li {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.icons ul li fa {
+    font-size: 5em;
+    text-align: center;
+    align-content: center;
+}
+
+div.icons button,button:hover,button:active {
+    height: 70px;
+    width: 70px;
+    font-size: 0.5em;
+    padding: 0.5em;
+}
